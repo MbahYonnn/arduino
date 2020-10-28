@@ -7,8 +7,11 @@ int i;
 
 void loop() {
   // put your main code here, to run repeatedly:
-  for(int i=0;i+1;i++){
+  
+  for(int i=0;i+5;i++){
     i++;
     Serial.println(i);
+    delay(5000);
     }
+    Serial.println("welelelele");
 }
